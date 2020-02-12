@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="connect" />
+
+    <Button
+        android:id="@+id/generateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="generateAccount" />
+
+    <Button
+        android:id="@+id/getAccounts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getAccounts" />
+
+    <Button
+        android:id="@+id/paymentsheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="paymentsheet" />
+
+    <Button
+        android:id="@+id/sendSmartContract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sendSmartContract" />
+
+    <Button
+        android:id="@+id/webViewInit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="webViewInit" />
+
+    <com.samsung.android.sdk.blockchain.ui.CucumberWebView
+        android:id="@+id/cucumberWebView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
